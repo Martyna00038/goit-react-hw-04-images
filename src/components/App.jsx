@@ -34,7 +34,6 @@ const Featcher = () => {
     }
   };
 
-  // -------------------
   const queryChange = newQuery => {
     setQuery(newQuery);
     setActivePage(1);

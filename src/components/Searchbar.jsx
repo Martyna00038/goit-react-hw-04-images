@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 const Searchbar = ({ onSubmit }) => {
   const [query, setQuery] = useState('');
 
-  const handleSubmit = eve => {
-    eve.preventDefault();
+  const handleSubmit = event => {
+    event.preventDefault();
     onSubmit(query);
   };
 
